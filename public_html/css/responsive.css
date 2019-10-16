@@ -50,6 +50,11 @@ and open the template in the editor.
         width: 61px;
         line-height: 56px;
     }
+    /*section platforms*/
+
+    .platforms .nav .nav-item{
+        flex: 1 1 auto;
+    }
 }
 
 
@@ -84,7 +89,15 @@ and open the template in the editor.
     .top-articles{
         margin-top: -65px;
     }
+    /*section platforms*/
 
+    .platforms .nav .nav-item{
+        flex: 1 1 0;
+    }
+
+    .platforms .nav li:nth-of-type(4) img{
+        width: 50%;
+    }
 
 }
 
@@ -119,7 +132,13 @@ and open the template in the editor.
     .paid-plan .container:last-of-type {
         padding-top: 50px;
     }
+    .five-cols .col-lg-3{
+        flex: 0 0 20%;
+    }
 
+    .platforms{
+        margin-bottom: 120px;
+    }
 }
 
 

@@ -320,3 +320,39 @@ header{
     color: white;
     font-size: 40px;
 }
+
+/*section platforms*/
+
+.platforms{
+    margin-bottom: 60px;
+}
+
+.platforms .nav .nav-item{
+    flex: 1 1 50%;
+}
+
+.platforms .nav li:nth-of-type(2) img{
+    width: 60%;
+}
+
+.platforms .nav li:nth-of-type(4) img{
+    width: 65%;
+}
+
+/*footer .breadcrumb{
+        text-align: center;
+}*/
+
+footer .breadcrumb .breadcrumb-item a,
+footer .breadcrumb .breadcrumb-item:first-of-type a{
+    	color: #5B6C94;
+        font-family: Rubik;
+        font-size: 16px;
+        line-height: 32px;
+        text-decoration: none;
+}
+
+footer .breadcrumb-item + .breadcrumb-item::before {
+    color: #5B6C94;
+
+}
